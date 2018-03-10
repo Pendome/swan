@@ -50,7 +50,7 @@
           </ul>
         </nav>
         <div class="fl go"><span>当前</span><span>{{active}}</span>/<span>{{fen.length}}</span>
-            <input type="text" id="goto"/>
+            <input type="text" id="into"/> <input type="button" value="开始" id="goto" />
         </div>
     </div>
 </template>
